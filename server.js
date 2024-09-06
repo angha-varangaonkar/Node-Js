@@ -9,6 +9,8 @@ const fs =require('fs')
 // method | path | protocol 
 const server = http.createServer((req , res)=>{
     console.log(req.url);
+    console.log(req.method);
+    
     if (req.url === '/about' && req.method === 'GET') {
         const filePath =path.join(__dirname,'About.html');
 
