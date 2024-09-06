@@ -53,3 +53,12 @@ http => request , response
 // Server error responses (500 – 599)
 
 //request method 
+//REVIEW req.method => we have different req methods we can use to send request from client to the server most common used methods are : 
+//NOTE GET => used to get the data from backend.
+//NOTE POST => used to send data for the processing in the backend.
+//NOTE PUT => used to update or replace the data
+//NOTE PATCH => used to perform partial update
+//NOTE DELETE => used to delete any entry in the backend
+
+
+//TODO http , http  status code , request and response object , http methods , response , request cycle , web server , request and response headers
