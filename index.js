@@ -1,4 +1,4 @@
-console.log('hiiii');
+// console.log('hiiii');
 // console.log(window)
 // console.log(process);
 // ~,^ 
@@ -8,11 +8,11 @@ console.log('hiiii');
 
 
 // fs module 
-const fs=require('fs');
+// const fs=require('fs');
 
 // const os=require('os');
 
-const path=require('path');
+// const path=require('path');
 
 // readfile sync
 // it executes line by line 
@@ -77,13 +77,13 @@ const path=require('path');
 
 
 // extension name
-console.log(path.extname(' C:/Users/angha/OneDrive/Desktop/NodeJs '))
+// console.log(path.extname(' C:/Users/angha/OneDrive/Desktop/NodeJs '))
 
 // oarse will create object
-console.log(path.parse(' C:/Users/angha/OneDrive/Desktop/NodeJs '))
+// console.log(path.parse(' C:/Users/angha/OneDrive/Desktop/NodeJs '))
 
 // this will change the path
-console.log(path.resolve('users','local','bin','index.jx'))
+// console.log(path.resolve('users','local','bin','index.jx'))
 
 // this will resolve the path
 console.log(path.join('users','local','bin','index.jx'))
